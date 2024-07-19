@@ -1,0 +1,4 @@
+langchain==0.2.7
+langchain-openai==0.1.16
+langchain-community==0.2.4
+gradio==4.38.1
