@@ -6,5 +6,4 @@ RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 COPY src/sample-app.py .
 ENV GRADIO_SERVER_NAME="0.0.0.0"
 EXPOSE 8501
-USER root
 ENTRYPOINT [ "python", "sample-app.py" ]
