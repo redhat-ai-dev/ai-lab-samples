@@ -1,0 +1,6 @@
+instructlab --extra-index-url=https://download.pytorch.org/whl/cpu
+terminado
+tornado
+tornado-xstatic
+XStatic
+XStatic-term.js
