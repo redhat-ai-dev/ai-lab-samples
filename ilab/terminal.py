@@ -23,7 +23,7 @@ class TerminalPageHandler(tornado.web.RequestHandler):
 
 
 if __name__ == "__main__":
-    term_manager = terminado.SingleTermManager(shell_command=["bash"])
+    term_manager = terminado.SingleTermManager(shell_command=["ilab", "model", "chat"])
     handlers = [
         (r"/websocket", terminado.TermSocket, {"term_manager": term_manager}),
         (r"/", TerminalPageHandler),

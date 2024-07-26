@@ -18,4 +18,8 @@ COPY terminal.py /app/terminal.py
 
 COPY termpage.html /app/termpage.html
 
+RUN ilab config init --non-interactive && ilab model download
+
+EXPOSE ${XTERM_PORT}
+
 ENTRYPOINT ["python3", "/app/terminal.py"]
