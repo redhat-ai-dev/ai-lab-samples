@@ -6,7 +6,7 @@ This repository is being used in [ai-lab-template repository](https://github.com
 
 This repository is a copy of the AI Lab recipes source code under [ai-lab-recipes](https://github.com/containers/ai-lab-recipes/tree/main/recipes).
 
-To contribute or make an update to these samples, open a Pull Request under [ai-lab-recipes](https://github.com/containers/ai-lab-recipes/tree/main/recipes). To pull in the latest changes to this repository, run `./pull-sample-app.sh`, and commit the changes.
+To contribute or make an update to these samples, open a Pull Request under the upstream [ai-lab-recipes repository](https://github.com/containers/ai-lab-recipes/tree/main/recipes). To pull in the latest changes to this repository, run `./pull-sample-app.sh`, and commit the changes.
 
 You can then re-generate the Software Templates in [ai-lab-template](https://github.com/redhat-ai-dev/ai-lab-template) to use the latest AI samples from this repository.
 
