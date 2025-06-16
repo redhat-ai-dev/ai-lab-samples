@@ -12,4 +12,4 @@ You can then re-generate the Software Templates in [ai-lab-template repository](
 
 ## Usage in ai-lab-template-experiment
 
-For the experimental Software Templates in [ai-lab-template-experiment](https://github.com/redhat-ai-dev/ai-lab-template-experiment), use the `experiment` branch. The [import-ai-lab-samples](https://github.com/redhat-ai-dev/ai-lab-template-experiment/blob/67c7d1b0c5ae9973f74d7d3bbeb849c442c214c7/scripts/import-ai-lab-samples#L4) script pulls in the sample applications from the `experiment` branch. The `experiment` branch is independent of other repositories and it is manually curated or maintained.
+For the experimental Software Templates in [ai-lab-template-experiment repository](https://github.com/redhat-ai-dev/ai-lab-template-experiment), use the `experiment` branch. The [import-ai-lab-samples](https://github.com/redhat-ai-dev/ai-lab-template-experiment/blob/67c7d1b0c5ae9973f74d7d3bbeb849c442c214c7/scripts/import-ai-lab-samples#L4) script pulls in the sample applications from the `experiment` branch. The `experiment` branch is independent of other repositories and it is manually curated or maintained.
