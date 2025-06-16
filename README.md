@@ -2,7 +2,7 @@
 
 ## Usage in ai-lab-template
 
-This repository is being used in [ai-lab-template](https://github.com/redhat-ai-dev/ai-lab-template) as the Software Template source code for users to start with.
+This repository is being used in [ai-lab-template repository](https://github.com/redhat-ai-dev/ai-lab-template) as the Software Template source code for users to start with.
 
 This repository is a copy of the AI lab recipes source code under [ai-lab-recipes](https://github.com/containers/ai-lab-recipes/tree/main/recipes).
 
