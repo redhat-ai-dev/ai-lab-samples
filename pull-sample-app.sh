@@ -16,10 +16,17 @@ git clone $REPO 2>&1 > /dev/null
 
 REPONAME=$(basename $REPO)
 
-cp -r $TEMPDIR/$REPONAME/recipes/natural_language_processing/chatbot/app/ $CHATBOT_DIR
-cp -r $TEMPDIR/$REPONAME/recipes/natural_language_processing/codegen/app/ $CODEGEN_DIR
-cp -r $TEMPDIR/$REPONAME/recipes/audio/audio_to_text/app/ $AUDIO_TO_TEXT_DIR
-cp -r $TEMPDIR/$REPONAME/recipes/computer_vision/object_detection/app/ $OBJECTION_DETECTION_DIR
-cp -r $TEMPDIR/$REPONAME/recipes/natural_language_processing/rag/app/ $RAG_DIR
+mkdir -p \
+    $CHATBOT_DIR \
+    $CODEGEN_DIR \
+    $AUDIO_TO_TEXT_DIR \
+    $OBJECTION_DETECTION_DIR \
+    $RAG_DIR
+
+cp -r $TEMPDIR/$REPONAME/recipes/natural_language_processing/chatbot/app/* $CHATBOT_DIR
+cp -r $TEMPDIR/$REPONAME/recipes/natural_language_processing/codegen/app/* $CODEGEN_DIR
+cp -r $TEMPDIR/$REPONAME/recipes/audio/audio_to_text/app/* $AUDIO_TO_TEXT_DIR
+cp -r $TEMPDIR/$REPONAME/recipes/computer_vision/object_detection/app/* $OBJECTION_DETECTION_DIR
+cp -r $TEMPDIR/$REPONAME/recipes/natural_language_processing/rag/app/* $RAG_DIR
 
 rm -rf $TEMPDIR # clean up
