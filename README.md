@@ -1,5 +1,8 @@
 #  AI-lab samples
 
+> [!WARNING]
+> This repository has been retired and will no longer be maintained. It has been moved to [redhat-developer/rhdh-ai-template](https://github.com/redhat-developer/rhdh-ai-template).
+
 ## Usage in ai-lab-template
 
 This repository is being used in [ai-lab-template repository](https://github.com/redhat-ai-dev/ai-lab-template) as the Software Template source code for users to start with.
